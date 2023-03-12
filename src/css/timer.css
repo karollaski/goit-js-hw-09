@@ -54,6 +54,7 @@ body {
 }
 
 .btn-start {
+  cursor: pointer;
   font-family: 'Lobster', cursive;
   background: #e0aa3e;
   background: radial-gradient(
