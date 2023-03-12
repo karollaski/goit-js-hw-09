@@ -74,6 +74,5 @@ const convertMs = ms => {
   return { days, hours, minutes, seconds };
 };
 
-addLeadingZero = value => `${value}`.padStart(2, '0');
-
+const addLeadingZero = value => `${value}`.padStart(2, '0');
 startBtn.addEventListener('click', startCountdown);
